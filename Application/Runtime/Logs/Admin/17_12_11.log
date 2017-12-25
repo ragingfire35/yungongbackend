@@ -1,0 +1,245 @@
+[ 2017-12-11T14:28:36+08:00 ] ::1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001218s ]
+
+[ 2017-12-11T14:28:39+08:00 ] ::1 /admin.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0300s ]
+SQL: SELECT `id`,`username`,`password`,`randnum` FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2017-12-11T14:28:40+08:00 ] ::1 /admin.php/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002297s ]
+
+[ 2017-12-11T14:28:41+08:00 ] ::1 /admin.php/Admin/admin_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+NOTIC: [8] Undefined index: username D:\item\Application\Admin\Controller\AdminController.class.php 第 9 行.
+NOTIC: [8] Undefined index: start D:\item\Application\Admin\Controller\AdminController.class.php 第 11 行.
+NOTIC: [8] Undefined index: end D:\item\Application\Admin\Controller\AdminController.class.php 第 14 行.
+NOTIC: [8] Undefined index: username D:\item\Application\Admin\Controller\AdminController.class.php 第 17 行.
+NOTIC: [8] Undefined index: grade D:\item\Application\Admin\Controller\AdminController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0285s ]
+NOTIC: [8] Undefined index: start D:\item\Application\Admin\Controller\AdminController.class.php 第 24 行.
+NOTIC: [8] Undefined index: end D:\item\Application\Admin\Controller\AdminController.class.php 第 24 行.
+NOTIC: [8] Undefined index: grade D:\item\Application\Admin\Controller\AdminController.class.php 第 24 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( 1=1 and is_del = 0 ) ORDER BY utime DESC LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `admin` WHERE ( 1=1 and is_del = 0 ) ORDER BY utime DESC LIMIT 0,10   [ RunTime:0.0035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined index: start D:\item\Application\Runtime\Cache\Admin\3226f918dacc74d0e61fbe12999479d2.php 第 38 行.
+NOTIC: [8] Undefined index: end D:\item\Application\Runtime\Cache\Admin\3226f918dacc74d0e61fbe12999479d2.php 第 39 行.
+NOTIC: [8] Undefined index: username D:\item\Application\Runtime\Cache\Admin\3226f918dacc74d0e61fbe12999479d2.php 第 40 行.
+NOTIC: [8] Undefined index: grade D:\item\Application\Runtime\Cache\Admin\3226f918dacc74d0e61fbe12999479d2.php 第 44 行.
+NOTIC: [8] Undefined index: grade D:\item\Application\Runtime\Cache\Admin\3226f918dacc74d0e61fbe12999479d2.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2017-12-11T14:28:59+08:00 ] ::1 /admin.php/News/news_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+NOTIC: [8] Undefined index: start D:\item\Application\Admin\Controller\NewsController.class.php 第 10 行.
+NOTIC: [8] Undefined index: end D:\item\Application\Admin\Controller\NewsController.class.php 第 13 行.
+NOTIC: [8] Undefined index: grade D:\item\Application\Admin\Controller\NewsController.class.php 第 16 行.
+NOTIC: [8] Undefined index: category_id D:\item\Application\Admin\Controller\NewsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0597s ]
+NOTIC: [8] Undefined index: start D:\item\Application\Admin\Controller\NewsController.class.php 第 25 行.
+NOTIC: [8] Undefined index: end D:\item\Application\Admin\Controller\NewsController.class.php 第 25 行.
+NOTIC: [8] Undefined index: grade D:\item\Application\Admin\Controller\NewsController.class.php 第 25 行.
+SQL: SELECT news.news_id,news.title,news.profile,news.source,news.times,news.status,admin.username,news.ctime,re.cate_id FROM `news` LEFT JOIN relevance re on news.news_id = re.news_id LEFT JOIN admin on news.admin_id = admin.id  WHERE ( 1=1 and news.is_del = 0 ) ORDER BY news.utime DESC  [ RunTime:0.0177s ]
+SQL: SELECT news.news_id,news.title,news.profile,news.source,news.times,news.status,admin.username,news.ctime,re.cate_id FROM `news` LEFT JOIN relevance re on news.news_id = re.news_id LEFT JOIN admin on news.admin_id = admin.id  WHERE ( 1=1 and news.is_del = 0 ) ORDER BY news.utime DESC LIMIT 0,10   [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index:  D:\item\Application\Admin\Controller\NewsController.class.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\item\Application\Admin\Controller\NewsController.class.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\item\Application\Admin\Controller\NewsController.class.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\item\Application\Admin\Controller\NewsController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined index: start D:\item\Application\Runtime\Cache\Admin\5dc7cb56e7e8cd7601e6f40f87c141e0.php 第 37 行.
+NOTIC: [8] Undefined index: end D:\item\Application\Runtime\Cache\Admin\5dc7cb56e7e8cd7601e6f40f87c141e0.php 第 38 行.
+NOTIC: [8] Undefined index: grade D:\item\Application\Runtime\Cache\Admin\5dc7cb56e7e8cd7601e6f40f87c141e0.php 第 42 行.
+NOTIC: [8] Undefined index: grade D:\item\Application\Runtime\Cache\Admin\5dc7cb56e7e8cd7601e6f40f87c141e0.php 第 43 行.
+NOTIC: [8] Undefined index: grade D:\item\Application\Runtime\Cache\Admin\5dc7cb56e7e8cd7601e6f40f87c141e0.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2017-12-11T14:29:05+08:00 ] ::1 /admin.php/News/news_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0408s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2017-12-11T14:30:33+08:00 ] ::1 /admin.php/News/news_del.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-12-11T14:36:57+08:00 ] ::1 /admin.php/Admin/admin_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+NOTIC: [8] Undefined index: username D:\item\Application\Admin\Controller\AdminController.class.php 第 9 行.
+NOTIC: [8] Undefined index: start D:\item\Application\Admin\Controller\AdminController.class.php 第 11 行.
+NOTIC: [8] Undefined index: end D:\item\Application\Admin\Controller\AdminController.class.php 第 14 行.
+NOTIC: [8] Undefined index: username D:\item\Application\Admin\Controller\AdminController.class.php 第 17 行.
+NOTIC: [8] Undefined index: grade D:\item\Application\Admin\Controller\AdminController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0240s ]
+NOTIC: [8] Undefined index: start D:\item\Application\Admin\Controller\AdminController.class.php 第 24 行.
+NOTIC: [8] Undefined index: end D:\item\Application\Admin\Controller\AdminController.class.php 第 24 行.
+NOTIC: [8] Undefined index: grade D:\item\Application\Admin\Controller\AdminController.class.php 第 24 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( 1=1 and is_del = 0 ) ORDER BY utime DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin` WHERE ( 1=1 and is_del = 0 ) ORDER BY utime DESC LIMIT 0,10   [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined index: start D:\item\Application\Runtime\Cache\Admin\3226f918dacc74d0e61fbe12999479d2.php 第 38 行.
+NOTIC: [8] Undefined index: end D:\item\Application\Runtime\Cache\Admin\3226f918dacc74d0e61fbe12999479d2.php 第 39 行.
+NOTIC: [8] Undefined index: username D:\item\Application\Runtime\Cache\Admin\3226f918dacc74d0e61fbe12999479d2.php 第 40 行.
+NOTIC: [8] Undefined index: grade D:\item\Application\Runtime\Cache\Admin\3226f918dacc74d0e61fbe12999479d2.php 第 44 行.
+NOTIC: [8] Undefined index: grade D:\item\Application\Runtime\Cache\Admin\3226f918dacc74d0e61fbe12999479d2.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2017-12-11T14:37:10+08:00 ] ::1 /admin.php/Admin/admin_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002064s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2017-12-11T15:18:36+08:00 ] ::1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001230s ]
+
